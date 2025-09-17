@@ -1,0 +1,118 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Lab 1: Simple pendulum}
+\date{}
+\author{}
+
+\begin{document}
+\maketitle
+
+\section*{Introduction}
+In this experiment you investigate the behavior of a simple physical system called a pendulum, 
+consisting of a mass swinging on string. Although mechanically simple, this system is important because 
+it exhibits repetitive motion. The frequency of repetition depends on the physical properties of the 
+system, the mass, and the string length. You will experimentally determine how the motion is related to 
+system properties by taking data and performing graphical analysis to obtain a mathematical ``fit''. 
+Comparison of this fit with theory results in a determination of the acceleration due to gravity.
+
+
+
+\begin{figure}[h!]
+    \begin{center}
+    
+    \includegraphics[width=0.25\linewidth]{Pendulum.png}
+    \caption{A simple pendulum of length $L$ and mass $m$ displaced by an angle $\theta$.}
+\end{center}
+\end{figure}
+A simple pendulum is a mass $m$ swinging on the end of a string of length $L$ whose other end is fixed, as 
+shown in Figure 1. The mass swings back and forth with a period $T$. The period is the amount of time it 
+takes for one complete back and forth swing. Theoretically, the period is related to the length of the 
+string and to the acceleration due to gravity $g$ according to
+\begin{equation}
+T = 2\pi \sqrt{\frac{L}{g}} \tag{1}
+\end{equation}
+
+What we want to do in this lab is investigate the truth of this formula, and along the way get some 
+practice with plotting and line-fitting.
+
+You will see in the textbook that the formula (1) is really only applicable for small amplitude oscillations, 
+and we will explore that a little later. For now, only displace the pendulum by about $\theta = 5^\circ$ before you 
+release. You will also notice that formula (1) does NOT contain the mass of the pendulum. \textbf{Try changing 
+the mass and see that the pendulum period is indeed independent of it.}
+
+How best to verify formula (1)? You could just pick a value for $L$, measure the period $T$, and calculate the 
+period $T$ using (1). The measured and calculated values should then agree. But that is not enough to 
+verify the general applicability of (1). A better way is to vary the length of the pendulum and measure 
+the period and see if the formula relating period to length works for many different situations. This 
+verification could be presented as a table of numbers, but that is rather hard to read. A much better way 
+is to create a graphical representation and the best graphical representation for humans to look at (if 
+you can make it) is a straight line.
+
+So, if we were to take our formula (1) and square it we would get
+\begin{equation}
+T^2 = \frac{4\pi^2}{g} L
+\end{equation}
+
+You can see that if we were to plot $T^2$ vs $L$ we should get a straight line because we now have an 
+equation in the form $y = (\text{constant})x$ where the $y$ is $T^2$, the $x$ is $L$, and the constant, which is the 
+slope of the line, is equal to $4\pi^2/g$.
+
+\section*{Procedure to verify formula (1)}
+Starting with a length $L = 0.2\ \text{m}$, and going up to $2\ \text{m}$, release the pendulum from $5^\circ$ and 
+measure the period. Record the period and enter it along with the lengths into a spreadsheet. Using the 
+spread sheet, calculate the square of the period and then plot it against the length. Make sure that the 
+period squared is on the ``y'' axis. Now, using the fitting capability, put a straight line through your data 
+and record the slope of the line (what units would it have?). If we have done everything correctly then 
+the slope should equal $4\pi^2/g$. So as a check, figure out a value for the acceleration due to gravity. It 
+should agree pretty closely with the value displayed on the PhET.
+
+\section*{The pendulum at larger angles}
+As mentioned above, the derivation bringing you to the formulas you’ve seen so far was done in the 
+small-angle approximation. The small angle approximation is when you can say $\theta = \sin(\theta) = \tan(\theta)$ 
+and where the angle must be expressed in radians. If you have never done it before, you can try it and 
+see. Take a small angle like 5 degrees, express it in radians, and then take its sine. Those last two 
+numbers should be 0.087266463 and 0.087155743, respectively. They differ by about 0.1\%. But try it at
+bigger angles like 60 degrees. The agreement is not so good.
+
+Similarly, formula (1) begins to break down at larger angles. There is actually a solution for the period of 
+the pendulum at larger angles, but it is in terms of an infinite series. You may come across it in more 
+advanced math/physics classes.
+
+For now, let's see how good our approximate formula is. Set the pendulum length at say 1 m and make a 
+series of measurements of the period for various angles, starting at 5 degrees and going up to 70 
+degrees in steps of 15 degrees. Plot these with the angle on the horizontal axis and the period on the 
+vertical axis. You will see that equation (1) gives you a period quite close to two seconds for this length 
+of pendulum. From the graph you have produced, estimate the maximum angle you could start your 
+pendulum with and for which formula (1) still gives you an answer within 5\% of the true period (period 
+at very low angle).
+
+\section*{Lab report}
+Your report should include the following: 
+\begin{enumerate}
+    \item Include the names of your group members.
+    \item Some sort of short intro about the purpose/goal of the lab. What did you accomplish?
+    \item The data tables ($T$ vs $L$ and $T$ vs $\theta$) and graphs you have produced ($T$ vs. $L$, $T^2$ vs. $L$, and $T$ 
+    vs $\theta$ (in degrees)). When producing your graphs make sure that the axes are correctly 
+    labeled and have the correct units.
+    \item Your estimate of the acceleration due to gravity and how you obtained it from the $T^2$ vs $L$ 
+    graph. Show your work and calculate the percent error of $g_{measured}$ compared to $g =
+    9.8\ \text{m/s}^2$.
+    \item Report, referring to your second graph (or your angle which keeps your measured 
+    period less than 5\% different from the calculated period), the maximum angle you 
+    should use in this experiment for there to be good agreement between the approximate 
+    theory (equation 1) and the measurement of period. Provide an explanation of your 
+    reasoning for choosing this ``max angle''.
+    \item Question 1: Are you surprised that period only depends on $L$ and $g$? Provide a short 
+    explanation of why mass has no effect. 
+    \item Question 2: What assumptions are we making to ensure equation 1 is correct (discuss 
+    more than one). In other words, equation 1 assumes a ``simple pendulum''. What 
+    simplifications need to be true to make it ``simple''.
+    \item Question 3: In this lab, we ``linearize the data''. What is the point of doing this? Discuss 
+    the relationship we are trying to verify in the lab.
+\end{enumerate}
+
+\end{document}
