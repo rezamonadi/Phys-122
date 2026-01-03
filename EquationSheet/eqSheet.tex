@@ -1,0 +1,218 @@
+\documentclass[11pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage[margin=1in]{geometry}
+
+\begin{document}
+
+\begin{center}
+\Large \textbf{Physics 122 Fall 2025 --- Jacks} \\
+\large \textbf{General Equations Guide} \\
+\normalsize (“$\equiv$” means “is defined as”)
+\end{center}
+
+\section*{Heat, First Law, Heat Engines and Heat Pumps}
+
+\begin{align}
+e &\equiv \frac{\text{what you get}}{\text{what you paid}} \\
+\Delta E_{\text{th}} &= W + Q \\
+Q_{\text{in}} &= W_{\text{out}} + Q_{\text{out}} \\
+e_{\text{HE}} &= \frac{W_{\text{out}}}{Q_{\text{in}}} \\
+e_{\text{HE,max}} &= 1 - \frac{T_C}{T_H} \\
+Q_{\text{in}} + W_{\text{in}} &= Q_{\text{out}} \\
+\text{COP}_{\text{HP}} &= \frac{Q_{\text{in}}}{W_{\text{in}}} \\
+\text{COP}_{\text{HP,max}} &= \frac{T_C}{T_H - T_C}
+\end{align}
+
+\section*{Conversions, Pressure, and Ideal Gas Law}
+
+\begin{align}
+n &= \frac{N}{N_A} \\
+K_{\text{avg}} &= \frac{3}{2} k_B T \\
+E_{\text{th}} &= \frac{3}{2} N k_B T \\
+\Delta E &= \frac{3}{2} N k_B \Delta T \\
+v_{\text{rms}} &= \sqrt{\frac{3 k_B T}{m}} \\
+p &\equiv \frac{F}{A}
+\end{align}
+
+\begin{align}
+p_{\text{gauge}} &= p_{\text{actual}} - p_{\text{atm}} \\
+pV &= N k_B T \\
+pV &= nRT
+\end{align}
+
+\section*{Thermal Expansion}
+
+\begin{align}
+\frac{\Delta L}{L} &= \alpha \Delta T \\
+\frac{\Delta V}{V} &= \beta \Delta T
+\end{align}
+
+\section*{Heat Capacity, Calorimetry and Emissivity}
+
+\begin{align}
+C &\equiv \frac{Q}{\Delta T} \\
+c &\equiv \frac{C}{m} \\
+Q &= mc \Delta T \\
+Q_{\text{melt}} &= m L_f \\
+Q_{\text{freeze}} &= - m L_f \\
+Q_{\text{boil}} &= m L_v \\
+Q_{\text{condense}} &= - m L_v \\
+Q_{\text{into 1}} + Q_{\text{out of 2}} &= 0 \\
+Q_V &= mc_V \Delta T \\
+Q_P &= mc_P \Delta T \\
+\frac{Q}{\Delta t} &= e \sigma A T^4 \\
+\left(\frac{Q}{\Delta t}\right)_{\text{net}} &= e \sigma A \left(T^4 - T_0^4\right)
+\end{align}
+
+\section*{Fluids}
+
+\begin{align}
+\rho &= \frac{m}{V} \\
+p &= p_0 + \rho_{\ell} g h \\
+p_0 &= \rho g h \\
+p_{\text{gas}} &= p_0 + \rho g h \\
+\|{F_B}\| &= \rho_{\ell} V_{\ell} g \\
+A_1 v_1 &= A_2 v_2 \\
+p_2 + \frac{1}{2}\rho v_2^2 + \rho g y_2
+&=
+p_1 + \frac{1}{2}\rho v_1^2 + \rho g y_1
+\end{align}
+
+\section*{Oscillations}
+
+\begin{align}
+f &\equiv \frac{1}{T} \\
+\vec{F}_s &= -kx\,\hat{x} \\
+\Delta \ell &= \frac{mg}{k} \\
+\sin\theta &\approx \theta \\
+x(t) &= x_{\max}\cos\!\left(\frac{2\pi t}{T}\right)
+      = x_{\max}\cos(2\pi f t) \\
+v(t) &= -v_{\max}\sin\!\left(\frac{2\pi t}{T}\right)
+      = -v_{\max}\sin(2\pi f t) \\
+a(t) &= -a_{\max}\cos\!\left(\frac{2\pi t}{T}\right)
+      = -a_{\max}\cos(2\pi f t) \\
+x_{\max} &= A \\
+v_{\max} &= 2\pi f A \\
+a_{\max} &= (2\pi f)^2 A \\
+f &= \frac{1}{2\pi}\sqrt{\frac{k}{m}} \\
+f &= \frac{1}{2\pi}\sqrt{\frac{g}{\ell}}
+\end{align}
+
+\section*{Energy in SHM}
+
+\begin{align}
+U_{\text{spring}} &= \frac{1}{2} k x^2 \\
+KE &= \frac{1}{2} m v^2 \\
+E_{\text{total}} &= KE_{\max} = U_{\max} \\
+E_x &= KE_x + U_x
+\end{align}
+
+\section*{Traveling Waves}
+
+\begin{align}
+\mu &= \frac{m}{\ell} \\
+v_{\text{string}} &= \sqrt{\frac{T}{\mu}} \\
+v &= \lambda f \\
+y(x,t) &= A \cos\!\left[2\pi\left(\frac{x}{\lambda} \mp \frac{t}{T}\right)\right]
+       = A \cos\!\left[2\pi\left(\frac{x \mp vt}{\lambda}\right)\right] \\
+I &\equiv \frac{P}{A}
+\end{align}
+
+\section*{Doppler Effect}
+
+\begin{align}
+f_{\text{obs}} &= f_{\text{source}}
+\left(1 \mp \frac{v_{\text{source}}}{v_{\text{waves}}}\right) \\
+f_{\text{obs}} &=
+\left(1 \pm \frac{v_{\text{obs}}}{v_{\text{waves}}}\right)
+f_{\text{source}} \\
+\Delta f &= \pm 2 f_{\text{source}}
+\frac{v_{\text{object}}}{v_{\text{waves}}}
+\end{align}
+
+\section*{Standing Waves}
+
+\subsection*{Open--Open or Closed--Closed}
+
+\begin{align}
+\lambda_n &= \frac{2L}{n}, \quad n=1,2,3,\dots \\
+f_n &= \frac{n v}{2L}
+\end{align}
+
+\subsection*{Open--Closed}
+
+\begin{align}
+\lambda_n &= \frac{4L}{n}, \quad n=1,3,5,\dots \\
+f_n &= \frac{n v}{4L}
+\end{align}
+
+\section*{Interference and Beats}
+
+\begin{align}
+\Delta d &= n\lambda \\
+\Delta d &= \left(n+\frac{1}{2}\right)\lambda \\
+f_{\text{osc}} &= \frac{1}{2}(f_1 + f_2) \\
+f_{\text{beat}} &= \|f_1 - f_2\|
+\end{align}
+
+\section*{Light and Optics}
+
+\begin{align}
+n &\equiv \frac{c}{v} \\
+\lambda_{\text{med}} &= \frac{\lambda_0}{n}
+\end{align}
+
+\subsection*{Young's Double Slit}
+
+\begin{align}
+m\lambda &= d\sin\theta_m \\
+m\lambda &= d\theta_m \\
+y_m &\approx \frac{m\lambda L}{d} \\
+\Delta y &= \frac{\lambda L}{d} \\
+y_p &= \left(p+\frac{1}{2}\right)\frac{\lambda L}{d}
+\end{align}
+
+\subsection*{Thin Film ( $n_{\text{film}} < n_{\text{under}}$ )}
+
+\begin{align}
+2d &= m \frac{\lambda_0}{n} \\
+2d &= \left(m+\frac{1}{2}\right)\frac{\lambda_0}{n}
+\end{align}
+
+\subsection*{Diffraction}
+
+\begin{align}
+d\sin\theta_m &= m\lambda \\
+y_m &= L\tan\theta_m \\
+\theta_p &= \frac{p\lambda}{a} \\
+y_p &= \frac{p\lambda L}{a} \\
+w &= \frac{2\lambda L}{a} \\
+w &\approx 2.44 \frac{\lambda L}{D}
+\end{align}
+
+\section*{Ray Optics}
+
+\begin{align}
+\theta_i &= \theta_r \\
+n_1 \sin\theta_1 &= n_2 \sin\theta_2 \\
+\theta_c &\ge \arcsin\!\left(\frac{n_1}{n_2}\right),
+\quad n_2 > n_1
+\end{align}
+
+\section*{Lenses and Instruments}
+
+\begin{align}
+s' &= s \frac{n_2}{n_1} \\
+m &\equiv \pm \frac{s'}{s} \\
+\frac{1}{\pm f} &= \frac{1}{s} + \frac{1}{s'} \\
+P &= \frac{1}{f} \\
+M &\equiv \frac{\theta}{\theta_0} \\
+M &= \frac{25\text{ cm}}{f} \\
+M_o &\approx -\frac{L}{f_o} \\
+M_e &= \frac{25\text{ cm}}{f_e} \\
+M &= -\frac{L(25\text{ cm})}{f_o f_e} \\
+M &= -\frac{f_o}{f_e} \\
+\alpha &= 1.22 \frac{\lambda}{D}
+\end{align}
+
+\end{document}
