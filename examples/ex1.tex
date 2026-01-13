@@ -1,0 +1,68 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{siunitx}
+
+\begin{document}
+
+\section*{Worked Example: Energy Content of Gasoline}
+
+\textbf{Problem.}  
+Suppose a person could magically convert the chemical energy of gasoline directly into useful mechanical energy.
+This person drinks 0.5 liter of gasoline and bikes at a constant speed of \SI{10}{km/h} which requires an average mechanical 
+power of \SI{100}{W}. How long could the cyclist ride using the energy from \textbf{0.5 liter} of gasoline? Does your answer surprise you? Why?
+Gasoline has an energy content of approximately
+\[
+E = 3 \times 10^{7}\ \text{J/L}.
+\]
+
+
+\vspace{0.3in}
+
+\hrule
+
+\vspace{0.3in}
+
+\textbf{Solution.}
+
+\begin{enumerate}
+
+\item \textbf{Energy in 0.5 liter of gasoline}
+
+The energy content is already given per liter:
+\[
+E_= 0.5 \times 3 \times 10^{7}\ \text{J} = 1.5 \times 10^{7}\ \text{J}.
+\]
+
+\item \textbf{How long can we bike?}
+
+Power is defined as energy per unit time:
+\[
+P = \frac{E}{t}.
+\]
+
+Solving for time,
+\[
+t = \frac{E}{P}.
+\]
+
+Substituting values,
+\[
+t = \frac{1.5 \times 10^{7}\ \text{J}}{100\ \text{J/s}}
+= 1.5 \times 10^{5}\ \text{s}.
+\]
+
+Converting seconds to hours,
+\[
+t = \frac{1.5 \times 10^{5}}{3600} \approx 42\ \text{h}.
+\]
+
+\end{enumerate}
+
+\textbf{Interpretation.}  
+
+Using the energy in just \textbf{one liter of gasoline}, a cyclist traveling at \SI{15}{km/h} could ride for nearly \textbf{4 days continuously}. This illustrates how energy-dense chemical fuels are compared to human metabolic power.
+The answer is surprising because we assumed an efficency of 100\% for human body. In reality, the human body is only about 20-25\% efficient at converting food energy into mechanical work, so the actual riding time would be significantly less.
+
+\end{document}
