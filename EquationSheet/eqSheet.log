@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.2)  3 JAN 2026 10:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2025.9.2)  5 JAN 2026 08:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**./eqSheet.tex
+**eqSheet.tex
 (./eqSheet.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
@@ -206,12 +206,12 @@ L3 programming layer <2024-01-22>
  ) 
 Here is how much of TeX's memory you used:
  2291 strings out of 474222
- 32844 string characters out of 5748734
+ 32842 string characters out of 5748734
  1943975 words of memory out of 5000000
  24565 multiletter control sequences out of 15000+600000
  565795 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,13n,65p,238b,193s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,13n,65p,236b,193s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texli
@@ -222,7 +222,7 @@ t/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts
 public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmsy8.pfb>
-Output written on eqSheet.pdf (6 pages, 133607 bytes).
+Output written on eqSheet.pdf (6 pages, 133063 bytes).
 PDF statistics:
  73 PDF objects out of 1000 (max. 8388607)
  44 compressed objects within 1 object stream

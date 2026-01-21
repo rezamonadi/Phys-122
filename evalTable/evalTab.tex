@@ -1,0 +1,45 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{caption}
+
+\begin{document}
+
+\section*{Combined Course Evaluation Table (Sorted by Year)}
+
+\begin{longtable}{llllccc}
+\caption{Combined course evaluations sorted chronologically by quarter and year.}\
+\toprule
+Quarter & Year & Course Prefix & Course Number & Mode of Instruction & Enrollment & Avg. Effectiveness \
+\midrule
+\endfirsthead
+
+\toprule
+Quarter & Year & Course Prefix & Course Number & Mode of Instruction & Enrollment & Avg. Effectiveness \
+\midrule
+\endhead
+
+Fall & 2023 & PHYS & 143--07 & Lecture & 68 & 3.75 \
+Fall & 2023 & PHYS & 143--25 & Lab & 25 & 3.33 \
+
+Winter & 2024 & ASTR & 101--01 & Lecture & 59 & 4.10 \
+Winter & 2024 & PHYS & 143--01 & Lecture & 71 & 3.50 \
+Winter & 2024 & PHYS & 143--02 & Lab & 25 & 3.57 \
+Winter & 2024 & PHYS & 143--03 & Lab & 23 & 4.21 \
+Winter & 2024 & PHYS & 143--04 & Lab & 23 & 3.69 \
+
+Spring & 2024 & ASTR & 101--01 & Lecture & 114 & 4.07 \
+Spring & 2024 & PHYS & 143--13 & Lecture & 49 & 3.68 \
+
+Summer & 2024 & ASTR & 101--80 & Lecture & 114 & 4.50 \
+Summer & 2024 & ASTR & 102--81 & Lecture & 84 & 3.89 \
+
+Fall & 2024 & ASTR & 101--01 & Lecture & 116 & 3.55 \
+Fall & 2024 & PHYS & 121--09 & Lecture & 47 & 3.93 \
+Fall & 2024 & PHYS & 143--14 & Lab & 23 & 4.11 \
+
+\bottomrule
+\end{longtable}
+
+\end{document}

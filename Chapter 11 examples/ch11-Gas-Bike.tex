@@ -1,0 +1,87 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath}
+\usepackage{siunitx}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Energy Estimate: Biking on One Gallon of Gasoline}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section*{Problem}
+If the human body could use gasoline as an energy source, how far could a person bicycle at a constant speed of
+\SI{15}{km/h} using \SI{1}{gallon} of gasoline?
+
+\section*{Given Information}
+\begin{itemize}
+    \item $1~\text{gallon of gasoline} \approx 3~\text{kg} = 3000~\text{g}$
+    \item Energy content of gasoline:
+    \[
+    1~\text{g gasoline} \approx 40~\text{kJ} = 4.0 \times 10^{4}~\text{J}
+    \]
+    \item Cycling power at \SI{15}{km/h}:
+    \[
+    P \approx 500~\text{W}
+    \]
+\end{itemize}
+
+\section*{Total Available Energy}
+\begin{align*}
+E_{\text{in}} 
+&= 3000~\text{g} \times 4.0 \times 10^{4}~\frac{\text{J}}{\text{g}} \\
+&= 1.2 \times 10^{8}~\text{J}
+\end{align*}
+
+\section*{Time of Cycling}
+Power is energy per unit time:
+\[
+P = \frac{E}{t}
+\quad \Rightarrow \quad
+t = \frac{E}{P}
+\]
+
+\begin{align*}
+t 
+&= \frac{1.2 \times 10^{8}~\text{J}}{500~\text{J/s}} \\
+&= 2.4 \times 10^{5}~\text{s}
+\end{align*}
+
+Convert seconds to hours:
+\begin{align*}
+t 
+&= \frac{2.4 \times 10^{5}}{3600} \\
+&\approx 6.7 \times 10^{1}~\text{h} \approx 65~\text{h}
+\end{align*}
+
+\section*{Distance Traveled}
+\begin{align*}
+d 
+&= v t \\
+&= (15~\text{km/h})(65~\text{h}) \\
+&\approx 9.8 \times 10^{2}~\text{km} \approx 1000~\text{km}
+\end{align*}
+
+\section*{Efficiency Correction}
+Human mechanical efficiency is approximately
+\[
+e \approx 25\%
+\]
+
+Thus, the realistic distance is
+\begin{align*}
+d_{\text{actual}} 
+&= e \, d \\
+&= 0.25 \times 1000~\text{km} \\
+&\approx 250~\text{km}
+\end{align*}
+
+\section*{Final Answer}
+\[
+\boxed{d \approx 250~\text{km}}
+\]
+
+\end{document}

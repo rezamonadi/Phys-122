@@ -1,0 +1,9 @@
+# Fdb version 4
+["pdflatex"] 0 "/home/reza/Phys-122/evalTable/evalTab.tex" "evalTab.pdf" "evalTab" 0 -1
+  "/home/reza/Phys-122/evalTable/evalTab.tex" 0 -1 0 ""
+  "evalTab.aux" 0 -1 0 "pdflatex"
+  (generated)
+  "evalTab.aux"
+  "evalTab.log"
+  "evalTab.pdf"
+  (rewritten before read)
