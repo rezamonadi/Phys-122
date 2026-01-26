@@ -1,0 +1,104 @@
+\documentclass[11pt]{article}
+
+\usepackage[margin=1in]{geometry}
+\usepackage{xcolor}
+\usepackage{tcolorbox}
+\usepackage{enumitem}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Define colors
+\definecolor{rubricblue}{RGB}{230,240,255}
+\definecolor{rubricborder}{RGB}{70,120,200}
+\definecolor{rubrictitle}{RGB}{40,80,160}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{Physics Lab Grading Rubric}}\\[0.5em]
+    {\large \textcolor{rubrictitle}{Total: 5 Points}}
+\end{center}
+
+% \vspace{1em}
+
+% \noindent
+% This rubric explains how your lab will be graded. The emphasis is on
+% \textbf{correct calculations}, \textbf{clear presentation of data}, and
+% \textbf{properly constructed graphs}.
+
+
+
+\begin{tcolorbox}[
+    colback=rubricblue,
+    colframe=rubricborder,
+    title=\textbf{Lab Report Rubric (5 Points Total)},
+    fonttitle=\bfseries,
+    coltitle=rubrictitle,
+    boxrule=1pt,
+    arc=3mm
+]
+
+\begin{itemize}[leftmargin=1.5em]
+
+    \item \textbf{5 points — Excellent}
+    \begin{itemize}
+        \item All calculations are correct.
+        \item A complete data table is shown and clearly labeled.
+        \item All required graph(s) are included with:
+        \begin{itemize}
+            \item correct x-axis label,
+            \item correct y-axis label,
+            \item clear and descriptive title.
+        \end{itemize}
+        \item A fitted equation is included and clearly presented when required.
+        \item All questions are answered correctly and completely. 
+    \end{itemize}
+
+    \item \textbf{4 points — Good}
+    \begin{itemize}
+        \item Minor calculation errors \emph{or} small formatting issues.
+        \item Data table is present and mostly clear.
+        \item Graph(s) included but with minor issues in labels or title.
+        \item Fitted equation included if required, but presentation may be weak.
+        \item minor mistakes in answering questions. 
+    \end{itemize}
+
+    \item \textbf{3 points — Satisfactory}
+    \begin{itemize}
+        \item Multiple calculation errors or incomplete work.
+        \item Data table present but incomplete or unclear.
+        \item Graph(s) included but missing labels, title, or clarity.
+        \item Fitted equation missing or incorrect when required.
+        \item multiple mistakes in answered questions or some missed questions. 
+    \end{itemize}
+
+    \item \textbf{2 points — Poor}
+    \begin{itemize}
+        \item Major calculation errors.
+        \item Data table missing or unclear.
+        \item Graph(s) poorly constructed or mostly incorrect.
+        \item No appropriate fitted equation when required.
+    \end{itemize}
+
+    \item \textbf{1 point — Minimal Effort}
+    \begin{itemize}
+        \item Very little correct work shown.
+        \item Calculations, data table, and/or graph(s) largely missing or unusable.
+    \end{itemize}
+
+    \item \textbf{0 points — No Submission}
+    \begin{itemize}
+        \item No lab submitted or work is not relevant to the experiment.
+    \end{itemize}
+
+\end{itemize}
+
+\end{tcolorbox}
+
+\vspace{1em}
+
+\noindent
+\textbf{Note:} Labs with missing graphs, unlabeled axes, or absent fitted equations
+(when required) cannot earn full credit.
+
+\end{document}
