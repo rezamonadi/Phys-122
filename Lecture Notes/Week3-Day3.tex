@@ -79,20 +79,22 @@ where
 \gamma = \frac{C_P}{C_V}
 \]
 
+
 \begin{center}
 \begin{tikzpicture}[scale=1.1]
   \draw[->] (0,0) -- (5,0) node[right] {$V$};
   \draw[->] (0,0) -- (0,4) node[above] {$P$};
 
-  % Isothermal curve
-  \draw[thick] (0.8,3.5) to[out=-20,in=160] (4.5,1.2);
-  \node at (4,2.5) {Isothermal};
+  % Isothermal
+  \draw[thick, blue] (0.8,3.5) to[out=-20,in=160] (4.5,1.2);
+  \node[blue] at (4,2.5) {Isothermal};
 
-  % Adiabatic curve
-  \draw[thick] (0.8,3.5) to[out=-30,in=150] (4.5,0.7);
-  \node at (4,1.4) {Adiabatic};
+  % Adiabatic
+  \draw[thick, red] (0.8,3.5) to[out=-30,in=150] (4.5,0.7);
+  \node[red] at (4,1.4) {Adiabatic};
 \end{tikzpicture}
 \end{center}
+
 
 Adiabatic curves are steeper than isothermal curves.
 
