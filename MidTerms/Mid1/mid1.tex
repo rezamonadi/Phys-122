@@ -1,0 +1,114 @@
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{siunitx}
+\usepackage{enumitem}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+\begin{document}
+
+\begin{center}
+  \LARGE \textbf{PHYS 122 — Midterm Exam}\\
+  \large Time: 50 minutes \hspace{1cm} Total: 100 points
+\end{center}
+
+\vspace{6pt}
+
+\textbf{Instructions}
+\begin{itemize}
+  \item Show all work clearly. Unsupported answers receive little or no credit.
+  \item Use SI units.
+  \item Algebraic expressions should be written before numerical substitution.
+  \item Clearly state assumptions where appropriate.
+  \item You must draw and label diagrams (including PV diagrams) when asked.
+\end{itemize}
+
+\textbf{Equations and constants}
+\begin{itemize}
+  \item First Law of Thermodynamics:
+  \[
+    \Delta E = Q + W_{\mathrm{env}}
+  \]
+  \item Sign convention:  
+  \(W_{\mathrm{env}} > 0\) for \textbf{compression},  
+  \(W_{\mathrm{env}} < 0\) for \textbf{expansion}
+  \item Ideal gas law:
+  \[
+    PV = nRT
+  \]
+  \item Work (constant pressure):
+  \[
+    W_{\mathrm{env}} = -P\Delta V
+  \]
+  \item Internal energy (ideal monatomic gas):
+  \[
+    E = \frac{3}{2}nRT \qquad \Delta E = \frac{3}{2}nR\Delta T
+  \]
+  \item Heat engine efficiency:
+  \[
+    e = \frac{W}{Q_h}
+  \]
+%   \item Carnot efficiency:
+%   \[
+%     \eta_C = 1 - \frac{T_c}{T_h}
+%   \]
+%   \item Entropy change (reservoir at constant temperature):
+%   \[
+%     \Delta S = \frac{Q}{T}
+%   \]
+%   \item Gas constant: \(R=\SI{8.314}{J\,mol^{-1}\,K^{-1}}\)
+\end{itemize}
+
+\newpage
+
+\section*{Question 1 — Ideal gas and the first law \hfill (30 points)}
+One mole of an ideal monatomic gas initially at pressure \(P_1=\SI{2.0e5}{Pa}\) and volume \(V_1=\SI{1.0e-3}{m^3}\) 
+undergoes an expansion until its volume doubles and its pressure drops to  $1/2P_1$.
+
+\begin{enumerate}[label=(\alph*)]
+  \item Draw a clearly labeled PV diagram for this process. Indicate the direction of the process. \hfill (5 pts)
+  \item Calculate the initial and final temperature of the gas. \hfill (5 pts)
+  \item Calculate the work done on the gas \(W_{\mathrm{env}}\). State its sign and explain briefly. \hfill (5 pts)
+  \item Calculate the change in internal energy \(\Delta E\). \hfill (5 pts)
+  \item Calculate the heat \(Q\) transferred during the process. \hfill (5 pts)
+  \item compare the root mean square speed of the gas molecules before and after the expansion. \hfill (5 pts)
+\end{enumerate}
+
+\newpage
+
+% \section*{Question 2 — Cyclic process and PV work \hfill (35 points)}
+% An ideal gas undergoes the following cycle:
+% \begin{itemize}
+%   \item A \(\to\) B: isothermal expansion
+%   \item B \(\to\) C: isochoric cooling
+%   \item C \(\to\) A: isobaric compression
+% \end{itemize}
+% The gas returns to its initial state A at the end of the cycle.
+
+% \begin{enumerate}[label=(\alph*)]
+%   \item Sketch a PV diagram of the complete cycle. Label all processes clearly. \hfill (10 pts)
+%   \item For each step (A\(\to\)B, B\(\to\)C, C\(\to\)A), state whether the work done on the gas is positive, negative, or zero. Justify briefly. \hfill (10 pts)
+%   \item Is the net work done on the gas over one full cycle positive, negative, or zero? Explain using your PV diagram. \hfill (8 pts)
+%   \item What is the net change in internal energy over one complete cycle? Explain. \hfill (7 pts)
+% \end{enumerate}
+
+\newpage
+
+% \section*{Question 3 — Heat engine and entropy \hfill (30 points)}
+% A heat engine operates between a hot reservoir at \(T_h=\SI{600}{K}\) and a cold reservoir at \(T_c=\SI{300}{K}\). During each cycle, the engine absorbs \(\SI{500}{J}\) of heat from the hot reservoir.
+
+% \begin{enumerate}[label=(\alph*)]
+%   \item What is the maximum possible efficiency of this engine? Name the type of engine that achieves this efficiency. \hfill (8 pts)
+%   \item For this maximum-efficiency engine, calculate the work done per cycle. \hfill (6 pts)
+%   \item Calculate the heat rejected to the cold reservoir per cycle. \hfill (6 pts)
+%   \item Calculate the total change in entropy of the universe per cycle. State whether this result is expected. \hfill (10 pts)
+% \end{enumerate}
+
+\vfill
+\begin{center}
+\textbf{End of Exam}
+\end{center}
+
+\end{document}

@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1770166604.24698 "/home/reza/Phys-122/Quizzes/QW5/QW5.tex" "QW5.pdf" "QW5" 1770166605.68528 0
-  "/etc/texmf/web2c/texmf.cnf" 1769276624.44494 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/reza/Phys-122/Quizzes/QW5/QW5.tex" 1770166603.75941 1850 c7950911156bed7c61eb0348d9a058df ""
+["pdflatex"] 1770230890.66773 "/home/reza/Phys-122/Quizzes/QW5/QW5.tex" "QW5.pdf" "QW5" 1770230891.07925 0
+  "/etc/texmf/web2c/texmf.cnf" 1758231986.8784 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/reza/Phys-122/Quizzes/QW5/QW5.tex" 1770230890.50629 1918 d50b9da5d319ae19d0d9b174ef4b8bb0 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc" 1177804218 3275 8d7166dfdbc31ffdc8aba0c31b3bd5c8 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc" 1177804218 3375 808c88761dbdc66fc653d18f42765b64 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc" 1177804218 3433 7734f79d46d219d7347f02050533a56b ""
@@ -157,10 +157,10 @@
   "/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty" 1700082560 55487 80a65caedd3722f4c20a14a69e785d8f ""
   "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1769277205.36206 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1769277358 8212540 db6b81586a4e3606e81bcc17cca1f536 ""
-  "QW5.aux" 1770166605.5452 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
-  "QW5.tex" 1770166603.75941 1850 c7950911156bed7c61eb0348d9a058df ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1758232009.31755 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1758232021 8213160 f445e44967ffa3133ac2f2d6d6c3cde7 ""
+  "QW5.aux" 1770230891.0433 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "QW5.tex" 1770230890.50629 1918 d50b9da5d319ae19d0d9b174ef4b8bb0 ""
   (generated)
   "QW5.aux"
   "QW5.log"

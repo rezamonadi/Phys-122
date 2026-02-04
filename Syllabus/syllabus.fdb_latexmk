@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1767579006.77783 "/home/reza/Phys-122/Syllabus/syllabus.tex" "syllabus.pdf" "syllabus" 1767579007.19871 0
-  "/etc/texmf/web2c/texmf.cnf" 1756848284.35339 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/reza/Phys-122/Syllabus/syllabus.tex" 1767579006.62122 12108 83ca8cc48df79005a1e41d069ceddd6e ""
+["pdflatex"] 1770058701.74159 "/home/reza/Phys-122/Syllabus/syllabus.tex" "syllabus.pdf" "syllabus" 1770058702.09493 0
+  "/etc/texmf/web2c/texmf.cnf" 1758231986.8784 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/reza/Phys-122/Syllabus/syllabus.tex" 1770058701.5236 12108 98d6762c533f71d76f6b594ec3ee1216 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1136768653 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
@@ -103,12 +103,12 @@
   "/usr/share/texmf/tex/latex/lm/t1lmr.fd" 1616454256 1867 996fe743d88a01aca041ed22cc10e1bb ""
   "/usr/share/texmf/tex/latex/lm/ts1lmr.fd" 1616454256 1914 884882d7ebb0fd65cea93fca77ff6f5a ""
   "/usr/share/texmf/web2c/texmf.cnf" 1707919699 40399 f2c302f7d2af602abb742093540a5834 ""
-  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1756849140.02002 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
-  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1756849166 8214755 84afdf897e5a55cf79952124ef11bed0 ""
-  "book.jpg" 1767465595.14916 25750 2fc093e11452cd154874d64ff597438c ""
-  "syllabus.aux" 1767579007.1522 162 f0fda7573680236e99560fa2ea99f7ba "pdflatex"
-  "syllabus.out" 1767579007.0502 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "syllabus.tex" 1767579006.62122 12108 83ca8cc48df79005a1e41d069ceddd6e ""
+  "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1758232009.31755 5472669 54eaf61a88b6b7896ebd0dac973cb29c ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1758232021 8213160 f445e44967ffa3133ac2f2d6d6c3cde7 ""
+  "book.jpg" 1769469661.65955 25750 2fc093e11452cd154874d64ff597438c ""
+  "syllabus.aux" 1770058702.06061 162 f0fda7573680236e99560fa2ea99f7ba "pdflatex"
+  "syllabus.out" 1770058701.97861 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "syllabus.tex" 1770058701.5236 12108 98d6762c533f71d76f6b594ec3ee1216 ""
   (generated)
   "syllabus.aux"
   "syllabus.log"
